@@ -14,11 +14,11 @@
   height: 49px;
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
 .landing-text {
-  font-size: large;
+  font-size: 25px;
   font-weight: bold;
 }
 .landing-container02 {
@@ -38,6 +38,9 @@
   background: transparent;
   text-align: center;
   text-decoration: none;
+}
+.landing-text01 {
+  font-size: 20px;
 }
 .landing-dropdown-cont {
   width: 280px;
@@ -62,6 +65,9 @@
   text-align: center;
   text-decoration: none;
 }
+.landing-text09 {
+  font-size: 20px;
+}
 .landing-dropdown-cont1 {
   width: 280px;
   margin: auto;
@@ -82,6 +88,9 @@
   text-align: center;
   text-decoration: none;
 }
+.landing-text16 {
+  font-size: 20px;
+}
 .landing-container06 {
   width: inherit;
   margin: auto;
@@ -97,6 +106,9 @@
   background: transparent;
   text-align: center;
 }
+.landing-text23 {
+  font-size: 20px;
+}
 .landing-container08 {
   width: inherit;
   margin: auto;
@@ -111,6 +123,9 @@
   height: 80px;
   background: transparent;
   text-align: center;
+}
+.landing-text32 {
+  font-size: 20px;
 }
 .landing-container10 {
   width: 280px;
@@ -138,7 +153,11 @@
   flex-direction: column;
 }
 .landing-text39 {
+  font-size: 8px;
   align-self: center;
+}
+.landing-text40 {
+  font-size: 8px;
 }
 @media(max-width: 991px) {
   .landing-container01 {
