@@ -1,0 +1,37 @@
+.intro-sec-container {
+  width: 100%;
+  height: 204px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.intro-sec-text {
+  font-size: 3rem;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.intro-sec-text2 {
+  color: rgba(25, 25, 25, 0.48);
+}
+.intro-sec-text5 {
+  color: rgb(153, 153, 153);
+  width: 70%;
+  font-size: 1.15rem;
+  align-self: center;
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .intro-sec-text {
+    text-align: center;
+  }
+  .intro-sec-text5 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .intro-sec-text {
+    text-align: center;
+  }
+}
