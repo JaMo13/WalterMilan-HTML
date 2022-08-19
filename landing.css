@@ -37,7 +37,6 @@
 .landing-dropdown-cont {
   width: 280px;
   margin: auto;
-  display: block;
   position: absolute;
   margin-top: var(--dl-space-space-halfunit);
 }
@@ -104,7 +103,7 @@
   text-align: center;
 }
 .landing-container10 {
-  width: inherit;
+  width: 280px;
   margin: auto;
   position: absolute;
   margin-top: var(--dl-space-space-halfunit);
